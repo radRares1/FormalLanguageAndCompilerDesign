@@ -1,0 +1,12 @@
+
+make_array numbers;
+make_number sum;
+
+numbers is [1,2,3,4];
+sum is 0;
+
+iterate numbers -> a {
+	sum += a;
+}
+
+write sum;

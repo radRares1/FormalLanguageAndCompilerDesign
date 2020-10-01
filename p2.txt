@@ -1,0 +1,17 @@
+
+define gcd(a, b)
+{
+    if (b == 0) 
+	{
+       	  a;
+	}
+    gcd(b, a % b); 
+}
+
+make_number x;
+make_number y;
+
+y is 3;
+x is read();
+
+write(gcd(x,y))

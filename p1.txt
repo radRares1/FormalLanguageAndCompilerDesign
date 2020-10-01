@@ -1,0 +1,15 @@
+
+make_number one;
+make_number anotherOne;
+make_truth whoIs;
+
+
+one is 5;
+anotherOne is 4;
+
+if (one > anotherOne) {
+	write("one");
+}
+else {
+	write("anotherOne");
+}
