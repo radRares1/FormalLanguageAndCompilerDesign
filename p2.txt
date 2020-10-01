@@ -5,11 +5,11 @@ make_number y;
 y is 3;
 x is read();
 
-repeat(y != 0){
-  temp = y
-  y = x % y
-  x = temp
+repeat(y isNot 0){
+  temp is y
+  y is x % y
+  x is temp
   }
-gcd = x
+gcd is x
 
 write(gcd)
