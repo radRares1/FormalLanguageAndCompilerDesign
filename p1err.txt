@@ -1,5 +1,5 @@
 
-make_numberS a;
+make_numbr a;
 
-a is b;
+a is 2b;
 
