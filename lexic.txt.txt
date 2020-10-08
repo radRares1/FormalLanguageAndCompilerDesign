@@ -1,0 +1,38 @@
+
+-separators:
+	; , \s \t \n [ ] { } 
+
+-reserved words:
+number truth array if else repeat read write is iterate
+
+-alphabet:
+uppercase and lowercase letters of the English alphabet, decimal digits(0-9)
+
+-identifiers:
+a sequence of letters and digits such that the first character must be letter
+
+	identifier = letter | [{letter} | {digit}] // no more than 256
+
+	letter = "a" | ... | "z" | "A" | ... | "Z"
+
+	digit = non_zero_digit | "0"
+
+	non_zero_digit = "1" | "2" | ... | "9" 
+
+-operators:
+
+	comparison_operator = ">" | "<" | ">=" | ">="
+
+	arithmetic_operator = "+" | "-" | "*" | "/" | "%"
+
+	boolean_operator = "is" | "isNot"
+
+	operator = arithmetic_operator | boolean_operator | comparison_operator
+
+-data types
+
+	number = {digit}
+
+	string = " , {letter} | {digit} , "
+	
+	truth = true | false

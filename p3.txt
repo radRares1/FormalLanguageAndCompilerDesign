@@ -1,12 +1,12 @@
 
-make_array numbers;
-make_number sum;
+array numbers;
+number sum;
 
-numbers is [1,2,3,4];
-sum is 0;
+numbers = [1,2,3,4];
+sum = 0;
 
-iterate numbers -> a {
+iterate a from numbers {
 	sum += a;
 }
 
-write sum;
+write(sum);

@@ -1,0 +1,8 @@
+type = "number" | "truth" | "string"
+constant = type //gotta define the constant
+composed_statements = \s | \t | \n | { | {statement} | \n | \t | \s
+statement = conditional_statement | assignment_statement | IO_statement | loop_statement
+assignment_statement = identifier , "=" , constant
+conditional_statement = "if" , "(" , condition , ")" , composed_statement, [ "else" , composed_statement ]
+IO_statement = "read", "(" , identifier , ")" | "write", "(" , identifier , ")"
+loop_statement = //TODO

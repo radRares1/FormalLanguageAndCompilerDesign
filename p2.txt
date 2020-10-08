@@ -1,15 +1,17 @@
 
-make_number x;
-make_number y;
+number x;
+number y;
 
-y is 3;
-x is read();
+
+y = 3;
+x = read();
+
 
 repeat(y isNot 0){
-  temp is y
-  y is x % y
-  x is temp
+  temp = y;
+  y = x % y;
+  x = temp;
   }
-gcd is x
+gcd = x;
 
 write(gcd)

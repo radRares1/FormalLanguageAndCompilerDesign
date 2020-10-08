@@ -1,11 +1,11 @@
 
-make_number one;
-make_number anotherOne;
-make_truth whoIs;
+number one;
+number anotherOne;
+truth whoIs;
 
 
-one is 5;
-anotherOne is 4;
+one = 5;
+anotherOne = 4;
 
 if (one > anotherOne) {
 	write("one");
