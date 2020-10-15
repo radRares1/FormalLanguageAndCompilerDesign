@@ -25,7 +25,7 @@ case class SymbolTable(var table: ListBuffer[Tuple2[Integer,String]]) {
   /**
    *
    * @param entry the string which we add as Tuple(hash(entry),entry)
-   * @return if the string does not exist in the table we add it
+   * @return if the string does not exist in the table we add it and return the position
    *         else we return it's position
    */
   def add(entry:String): Integer = {
