@@ -1,10 +1,8 @@
 import scala.collection.mutable.ListBuffer
 
 /**
- * needs to be changed completely, this is so bad I'm pretty sure it's not what we need to do but life is life
- * I initally wanted to make a hashtable but I do not understand exactly what the hashtable should contain
- * gotta look into it
- *
+ * Class that represents the symbol table used to keep the identifiers and constants
+ * is represented as a hashtable
  * @param table the list which keeps the pairs
  */
 case class SymbolTable(var table: ListBuffer[Tuple2[Integer,String]]) {
