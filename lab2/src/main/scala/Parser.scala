@@ -1,12 +1,14 @@
+import scala.collection.mutable.ListBuffer
+
 object Parser extends App{
 
   val identifiers = List("int")
   val constants = List("b")
 
-  val input = List("int","b","=","2;");
+  val input = List("int","b","=","2;")
 
-  val identifierSt = SymbolTable(List.empty)
-  val constantSt = SymbolTable(List.empty)
+  val identifierSt = SymbolTable(ListBuffer.empty)
+  val constantSt = SymbolTable(ListBuffer.empty)
 
 
   /**
