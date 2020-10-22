@@ -9,8 +9,6 @@ import scala.collection.mutable.ListBuffer
  */
 case class SymbolTable(var table: ListBuffer[Tuple2[Integer,String]]) {
 
-
-
   def getSize:Integer ={
     table.length
   }
@@ -39,6 +37,15 @@ case class SymbolTable(var table: ListBuffer[Tuple2[Integer,String]]) {
     else{
       hash(entry)
     }
+
+  }
+
+  def getPosition(entry:String):Integer = {
+    if(!table.map(_._2).contains(entry)){
+      table.zipWithIndex.filter(e => e._1._2 == entry).head._2
+    }
+    else
+      -1
 
   }
 
