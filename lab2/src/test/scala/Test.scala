@@ -27,4 +27,12 @@ class Test extends AnyFunSuite {
     assert(testTable.getValue(131) == "AB")
   }
 
+  test("readfile"){
+    val reservedWords = List("number", "truth ", "array ", "if", "else", "repeat", "read", "write", "is", "iterate")
+    val operators = List("<", "<=", ">", " >=", "is", "isNot", "=", "+", "-", "*", "%", "/")
+    val separators = List("(", ")", ",", ";"," ","\t","\n" , "{", "}")
+    val scanner:Scanner = Scanner(operators,separators,reservedWords)
+    scanner.readFile(ListBuffer("number",",","<","a","0","a1","1","\"a21\""))
+  }
+
 }

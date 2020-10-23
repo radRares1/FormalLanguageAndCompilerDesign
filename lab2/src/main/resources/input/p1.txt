@@ -3,7 +3,6 @@ number one;
 number anotherOne;
 truth whoIs;
 
-
 one = 5;
 anotherOne = 4;
 

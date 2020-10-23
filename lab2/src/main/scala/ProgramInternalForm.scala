@@ -1,11 +1,12 @@
+import scala.collection.mutable
 import scala.collection.mutable.ListBuffer
 
 case class ProgramInternalForm(){
 
-  val content:ListBuffer[(Int,Int)] = ListBuffer.empty
+  val content:mutable.HashMap[String,Int] = mutable.HashMap.empty
 
-  def add(entryHash:Int,stPosition:Integer):Unit = {
-    content.addOne((entryHash,stPosition))
+  def add(entry:String,stPosition:Integer):Unit = {
+    content(entry) = stPosition
   }
 
 }
