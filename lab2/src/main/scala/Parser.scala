@@ -23,4 +23,5 @@ object Parser extends App{
 
   scanner.writeSymbolTable()
   scanner.writeProgramInternalForm()
+  
 }
