@@ -34,6 +34,7 @@ case class SymbolTable(var table: ListBuffer[Tuple2[Integer,String]]) {
     }
     else{
       hash(entry) // this symbol table doesn't isn't manually written one but it works with the given programing language
+      
     }
 
   }
