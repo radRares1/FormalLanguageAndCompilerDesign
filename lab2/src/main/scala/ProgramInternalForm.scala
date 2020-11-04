@@ -3,10 +3,11 @@ import scala.collection.mutable.ListBuffer
 
 case class ProgramInternalForm(){
 
-  val content:mutable.HashMap[String,Int] = mutable.HashMap.empty
+
+  val content:ListBuffer[Tuple2[String,Int]] = ListBuffer.empty
 
   def add(entry:String,stPosition:Integer):Unit = {
-    content(entry) = stPosition
+    content.addOne((entry,stPosition))
   }
 
 }

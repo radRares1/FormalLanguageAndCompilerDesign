@@ -2,7 +2,6 @@
 number x;
 number y;
 
-
 y = 3;
 x = read();
 

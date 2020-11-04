@@ -29,6 +29,7 @@ case class SymbolTable(var table: ListBuffer[Tuple2[Integer,String]]) {
   def add(entry:String): Integer = {
     if(!table.map(_._2).contains(entry)){
 
+      //print(entry,hash(entry))
       table :+= Tuple2(hash(entry),entry)
       hash(entry)
     }

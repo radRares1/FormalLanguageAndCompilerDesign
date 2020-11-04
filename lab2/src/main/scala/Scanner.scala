@@ -22,6 +22,7 @@ case class Scanner(operators:List[String], separators:List[String], reservedWord
       true
     }
     //check if number
+      //schimba
     else if(new Regex("^\\d+$").matches(token)){
       true
     }
@@ -54,7 +55,7 @@ case class Scanner(operators:List[String], separators:List[String], reservedWord
     //for each line we get the content
     lines.zipWithIndex.foreach(line => {
 
-      println(line._1)
+      //println(line._1)
 
       //detect
       getTokens(line._1).foreach(token => {
@@ -66,6 +67,7 @@ case class Scanner(operators:List[String], separators:List[String], reservedWord
         else if(isIdentifier(token)){
 
           val index = st.add(token)
+
           pif.add("1",index)
 
         }
