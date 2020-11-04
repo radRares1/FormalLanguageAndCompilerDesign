@@ -12,6 +12,8 @@ case class Scanner(operators:List[String], separators:List[String], reservedWord
 
   def isIdentifier(token: String): Boolean = {
     //enforces that the string begins with a letter and can have 0 or more letters/numbers
+    // I guess the ?: means that it will not create a apcure group but the again it can be just a simple ^[a-zA-Z][a-zA-Z0-9]{,256}$
+    // the * at the start means that it can be a 0 or many alfabetical characters so that means that it can start with a digit also
     new Regex("^[A-Za-z]*(?:_[A-Za-z0-9]+)*{1,256}$").matches(token)
   }
 
@@ -37,6 +39,7 @@ case class Scanner(operators:List[String], separators:List[String], reservedWord
 
 
   //splits the string by the given regex and returns the list of tokens
+  //I guess this works? I don't know scala but ok:))
   def getTokens(lineContent: String):List[String] = {
     //translates in select an empty character before each `delimiter` or after each `delimiter`.
     //got it from @stackoverflow not gonna lie
