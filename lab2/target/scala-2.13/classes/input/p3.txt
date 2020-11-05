@@ -1,0 +1,12 @@
+
+array numbers;
+number sum;
+
+numbers = [1,2,3,4];
+sum = 0;
+
+iterate a from numbers {
+	sum += a;
+}
+
+write(sum);

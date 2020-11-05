@@ -1,0 +1,5 @@
+
+make_numbr a;
+
+a is #3;
+

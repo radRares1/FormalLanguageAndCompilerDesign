@@ -1,0 +1,16 @@
+
+number x;
+number y;
+
+y = 3;
+x = read();
+
+
+repeat(y isNot 0){
+  temp = y;
+  y = x % y;
+  x = temp;
+  }
+gcd = x;
+
+write(gcd)
