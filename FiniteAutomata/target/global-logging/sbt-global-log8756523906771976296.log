@@ -1,0 +1,9 @@
+[debug] > Exec(all {file:/C:/Users/Rares2/Desktop/an3/sem1Eu/FLCD/lab/FormalLanguageAndCompilerDesign/FiniteAutomata/}finiteautomata/products {file:/C:/Users/Rares2/Desktop/an3/sem1Eu/FLCD/lab/FormalLanguageAndCompilerDesign/FiniteAutomata/}finiteautomata/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata\target\scala-2.13\classes ...
+[info] done compiling
+[success] Total time: 1 s, completed Nov 5, 2020, 7:11:57 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

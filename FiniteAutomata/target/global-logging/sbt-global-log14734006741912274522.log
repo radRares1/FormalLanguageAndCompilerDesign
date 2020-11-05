@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.2 (JetBrains s.r.o Java 11.0.6)
+[debug]       Load.loadUnit: plugins took 246.624ms
+[debug]       Load.loadUnit: defsScala took 0.6868ms
+[debug] [Loading] Scanning directory C:\Users\Rares2\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Rares2\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 28.7649 ms
+[debug]           Load.resolveProject(global-plugins) took 60.0238ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Rares2\.sbt\1.0\plugins, plugins: List(<none>))) took 143.1333ms
+[debug] [Loading] Done in C:\Users\Rares2\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 180.7847ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.3814ms
+[debug]     Load.loadUnit(file:/C:/Users/Rares2/.sbt/1.0/plugins/, ...) took 457.747ms
+[debug]   Load.apply: load took 793.6051ms
+[debug]   Load.apply: resolveProjects took 8.8775ms
+[debug]   Load.apply: finalTransforms took 96.7006ms
+[debug]   Load.apply: config.delegates took 10.0147ms
+[debug]   Load.apply: Def.make(settings)... took 1333.1597ms
+[debug]   Load.apply: structureIndex took 186.7075ms
+[debug]   Load.apply: mkStreams took 3.5681ms
+[info] loading global plugins from C:\Users\Rares2\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 5340.4471ms
+[debug]           Load.loadUnit: plugins took 46.2183ms
+[debug]           Load.loadUnit: defsScala took 0.0065ms
+[debug] [Loading] Scanning directory C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.9525 ms
+[debug]               Load.resolveProject(finiteautomata-build) took 2.8797ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id finiteautomata-build, base: C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata\project, plugins: List(<none>))) took 7.7613ms
+[debug] [Loading] Done in C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata\project, returning: (finiteautomata-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 10.2854ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.0209ms
+[debug]         Load.loadUnit(file:/C:/Users/Rares2/Desktop/an3/sem1Eu/FLCD/lab/FormalLanguageAndCompilerDesign/FiniteAutomata/project/, ...) took 57.9829ms
+[debug]       Load.apply: load took 61.0342ms
+[debug]       Load.apply: resolveProjects took 0.2428ms
+[debug]       Load.apply: finalTransforms took 17.5247ms
+[debug]       Load.apply: config.delegates took 1.5127ms
+[debug]       Load.apply: Def.make(settings)... took 170.2471ms
+[debug]       Load.apply: structureIndex took 56.2481ms
+[debug]       Load.apply: mkStreams took 0.003ms
+[info] loading project definition from C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 4493.0025ms
+[debug]     Load.loadUnit: defsScala took 0.0042ms
+[debug] [Loading] Scanning directory C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata
+[debug]       Load.loadUnit: mkEval took 9.5375ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.5637 ms
+[info] loading settings for project finiteautomata from build.sbt ...
+[debug]         Load.resolveProject(finiteautomata) took 4.5544ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id finiteautomata, base: C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata, plugins: List(<none>))) took 9.0663ms
+[debug] [Loading] Done in C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata, returning: (finiteautomata)
+[debug]     Load.loadUnit: loadedProjectsRaw took 4230.7389ms
+[debug]     Load.loadUnit: cleanEvalClasses took 17.1649ms
+[debug]   Load.loadUnit(file:/C:/Users/Rares2/Desktop/an3/sem1Eu/FLCD/lab/FormalLanguageAndCompilerDesign/FiniteAutomata/, ...) took 8741.9249ms
+[debug] Load.apply: load took 8744.974ms
+[debug] Load.apply: resolveProjects took 0.1587ms
+[debug] Load.apply: finalTransforms took 13.4682ms
+[debug] Load.apply: config.delegates took 0.4087ms
+[debug] Load.apply: Def.make(settings)... took 167.2802ms
+[debug] Load.apply: structureIndex took 39.6512ms
+[debug] Load.apply: mkStreams took 0.004ms
+[info] set current project to FiniteAutomata (in build file:/C:/Users/Rares2/Desktop/an3/sem1Eu/FLCD/lab/FormalLanguageAndCompilerDesign/FiniteAutomata/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-5b8cb5cadcaaa1c64c89
