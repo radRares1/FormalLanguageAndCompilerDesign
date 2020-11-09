@@ -2,46 +2,31 @@
 [debug] IncrementalCompile.incrementalCompile
 [debug] previous = Stamps for: 5 products, 2 sources, 1 libraries
 [debug] current source = Set(${BASE}/src/main/scala/Automata.scala, ${BASE}/src/main/scala/FiniteAutomata.scala)
-[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Automata.scala), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Automata.scala, ${BASE}/src/main/scala/FiniteAutomata.scala), unmodified = ...),Set(),Set(),API Changes: Set())
 [debug] 
 [debug] Initial source changes:
 [debug] 	removed: Set()
 [debug] 	added: Set()
-[debug] 	modified: Set(${BASE}/src/main/scala/Automata.scala)
+[debug] 	modified: Set(${BASE}/src/main/scala/Automata.scala, ${BASE}/src/main/scala/FiniteAutomata.scala)
 [debug] Invalidated products: Set()
 [debug] External API changes: API Changes: Set()
 [debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated classes: Set(Automata)
+[debug] Initial directly invalidated classes: Set(Automata, FiniteAutomata)
 [debug] Sources indirectly invalidated by:
 [debug] 	product: Set()
 [debug] 	binary dep: Set()
 [debug] 	external source: Set()
-[debug] All initially invalidated classes: Set(Automata)
-[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/Automata.scala)
-[debug] Initial set of included nodes: Automata
+[debug] all 2 sources are invalidated
+[debug] Initial set of included nodes: Automata, FiniteAutomata
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
 [debug] compilation cycle 1
-[info] compiling 1 Scala source to C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata\target\scala-2.13\classes ...
+[info] compiling 2 Scala sources to C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata\target\scala-2.13\classes ...
 [debug] Getting org.scala-sbt:compiler-bridge_2.13:1.4.2:compile for Scala 2.13.2
-[debug] [zinc] Running cached compiler 252a9b11 for Scala compiler version 2.13.2
+[debug] [zinc] Running cached compiler 78157671 for Scala compiler version 2.13.2
 [debug] [zinc] The Scala compiler is invoked with:
 [debug] 	-bootclasspath
 [debug] 	C:\Users\Rares2\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.2\scala-library-2.13.2.jar
 [debug] 	-classpath
 [debug] 	C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata\target\scala-2.13\classes
-[debug] Invalidating (transitively) by inheritance from Automata...
-[debug] Initial set of included nodes: Automata
-[debug] Invalidated by transitive inheritance dependency: Set(Automata)
-[debug] Change NamesChange(Automata,ModifiedNames(changes = UsedName(consoleInput,[Default]))) invalidates 1 classes due to The Automata has the following regular definitions changed:
-[debug] 	UsedName(consoleInput,[Default]).
-[debug]   > by transitive inheritance: Set(Automata)
-[debug]   > 
-[debug]   > 
-[debug]         
-[debug] New invalidations:
-[debug] Initial set of included nodes: 
-[debug] Previously invalidated, but (transitively) depend on new invalidations:
-[debug] Final step, transitive dependencies:
-[debug] 	Set()
-[debug] No classes were invalidated.
-[debug] Scala compilation took 0.593256401 s
-[info] done compiling
+[debug] Compilation failed (CompilerInterface)
+[error] (Compile / compileIncremental) Compilation failed

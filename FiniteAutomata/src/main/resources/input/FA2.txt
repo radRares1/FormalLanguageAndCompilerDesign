@@ -1,0 +1,5 @@
+a,b,c,d
+0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+a
+c,d
+(a,1,c);(a,2,c);(a,3,c);(a,4,c);(a,5,c);(a,6,c);(a,7,c);(a,8,c);(a,9,c);(c,0,c);(c,1,c);(c,2,c);(c,3,c);(c,4,c);(c,5,c);(c,6,c);(c,7,c);(c,8,c);(c,9,c);(d,0,d);(d,1,d);(d,2,d);(d,3,d);(d,4,d);(d,5,d);(d,6,d);(d,7,d);(d,8,d);(d,9,d);(d,a,d);(d,b,d);(d,c,d);(d,d,d);(d,e,d);(d,f,d);(d,g,d);(d,h,d);(d,j,d);(d,k,d);(d,l,d);(d,m,d);(d,n,d);(d,o,d);(d,p,d);(d,q,d);(d,r,d);(d,s,d);(d,t,d);(d,u,d);(d,v,d);(d,w,d);(d,x,d);(d,y,d);(d,z,d);(a,a,d);(a,b,d);(a,c,d);(a,d,d);(a,e,d);(a,f,d);(a,g,d);(a,h,d);(a,j,d);(a,k,d);(a,l,d);(a,m,d);(a,n,d);(a,o,d);(a,p,d);(a,q,d);(a,r,d);(a,s,d);(a,t,d);(a,u,d);(a,v,d);(a,w,d);(a,x,d);(a,y,d);(a,z,d)

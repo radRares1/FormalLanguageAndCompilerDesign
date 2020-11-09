@@ -1,2 +1,8 @@
 [debug] Acquiring lock on file C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata\project\target\.sbt-compilation-infos\finiteautomata-compile\.sbt-idea-lock ...
+[error] C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata\src\main\scala\FiniteAutomata.scala:27:52: type mismatch;
+[error]  found   : Array[String]
+[error]  required: scala.collection.IterableOnce[(String, String, String)]
+[error]     Transitions = ListBuffer.from(rawInput(4).split(";"))
+[error]                                                    ^
+[error] one error found
 [debug] Releasing lock on file C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata\project\target\.sbt-compilation-infos\finiteautomata-compile\.sbt-idea-lock.

@@ -1,0 +1,15 @@
+[debug] > Exec(all {file:/C:/Users/Rares2/Desktop/an3/sem1Eu/FLCD/lab/FormalLanguageAndCompilerDesign/FiniteAutomata/}finiteautomata/products {file:/C:/Users/Rares2/Desktop/an3/sem1Eu/FLCD/lab/FormalLanguageAndCompilerDesign/FiniteAutomata/}finiteautomata/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata\target\scala-2.13\classes ...
+[error] C:\Users\Rares2\Desktop\an3\sem1Eu\FLCD\lab\FormalLanguageAndCompilerDesign\FiniteAutomata\src\main\scala\FiniteAutomata.scala:27:52: type mismatch;
+[error]  found   : Array[String]
+[error]  required: scala.collection.IterableOnce[(String, String, String)]
+[error]     Transitions = ListBuffer.from(rawInput(4).split(";"))
+[error]                                                    ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 9 s, completed Nov 9, 2020, 3:03:06 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
