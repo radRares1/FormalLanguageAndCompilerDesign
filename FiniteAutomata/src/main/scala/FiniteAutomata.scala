@@ -83,6 +83,9 @@ case class FiniteAutomata() {
 
         if (Ealphabet.contains(value.toString)) {
           if (Transitions.exists(e => e._1 == currentState && e._2 == value.toString)) {
+            // How I see this part is like: If there is a correct transition I will choose it or I get a nowhere but this loop won't stop instantly, it will go on until it finishes
+            // If we have DFA after you get a "nowhere" you can just simply stop the loop, it will have a correct result even in this version
+            // that is just some small optimization
             nextState = Option(Transitions.filter(e => e._1 == currentState && e._2 == value.toString).head._3)
           }
           currentState = nextState.getOrElse("nowhere")
@@ -98,7 +101,7 @@ case class FiniteAutomata() {
     println(s"Is sequence $sequence accepted? " + (isAccepted&&FinalStates.contains(nextState.getOrElse("false"))) + "\n")
 
   }
-
+ 
   def verifyAll(fileName: String): Unit = {
     var sequences: ListBuffer[String] = ListBuffer.empty
 
