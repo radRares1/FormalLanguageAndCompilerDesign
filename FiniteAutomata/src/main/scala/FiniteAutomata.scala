@@ -118,7 +118,7 @@ case class FiniteAutomata() {
       catch {
         case e: Exception => println(e.getMessage)
       }
-    }
+    } 
 
   }
 
